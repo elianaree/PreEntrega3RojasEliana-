@@ -1,0 +1,95 @@
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+margin-right: 10px;
+}
+
+header{
+    background-color: bisque;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    
+}
+
+
+header h1{
+    color: blueviolet;
+
+       
+    }
+    
+
+nav ul{
+
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    
+}
+  header nav ul li a{
+     text-decoration:none;
+  }  
+  nav a:hover{
+    color:white
+  }
+/*Mobile*/
+@media screen and (max-width: 767px) {
+   header nav ul{
+        background-color: white;
+    }
+
+}
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    header nav ul{
+        background-color: aliceblue;
+    }
+
+    
+}
+    
+ 
+.card{
+display: flex;
+
+}
+.card img{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    background-size: cover;
+
+}
+.card body{
+    padding: 20px 15px;
+    text-align: justify;
+}
+
+
+
+footer a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+}
+
+footer h4{
+   display: flex;
+  justify-content: center;
+   
+   
+   
+   
+ }
+
+
+
