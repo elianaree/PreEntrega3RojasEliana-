@@ -1,0 +1,1 @@
+Entregué todo el proyecto, pero las páginas responsive son el index.html y Productos.
