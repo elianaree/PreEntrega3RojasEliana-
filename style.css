@@ -86,6 +86,23 @@ main div h2{
     justify-content: center;
   }
 
+  .whatsapp{
+    display: none;
+  }
+@media only screen and (max-width:768px){
+  
+}
+
+   .whatsapp{
+    display: block;
+    position: fixed;
+    right: 5px;
+    z-index: 1;
+   }
+
+
+
+   
   .deco img{
       width: 700px;
       height: 500px;
