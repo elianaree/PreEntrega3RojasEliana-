@@ -1,0 +1,19 @@
+{
+  "name": "kavana",
+  "version": "1.0.0",
+  "description": "Entregué todo el proyecto, pero las páginas responsive son el index.html y Productos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianaree/PreEntrega2RojasEliana.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elianaree/PreEntrega2RojasEliana/issues"
+  },
+  "homepage": "https://github.com/elianaree/PreEntrega2RojasEliana#readme"
+}
