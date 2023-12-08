@@ -97,21 +97,17 @@ main div h2{
     justify-content: center;
   }
 
+
   .whatsapp{
-    display: none;
-  }
-@media only screen and (max-width:768px){
-  
-}
-
-   .whatsapp{
-    display: block;
-    position: fixed;
-    right: 5px;
-    z-index: 1;
+     position: fixed;
+    right: 25px;
+    bottom: 25px;
+    transition: 1s linear;
    }
-
-
+   &:hover{
+    transform: rotate(360 deg);
+   }
+    
 
    
   .deco img{
