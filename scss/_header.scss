@@ -1,3 +1,9 @@
+@mixin anclas{
+    text-decoration: none;
+    color:black;
+}
+
+
 .logo{
     display: flex;
     align-items: center;
@@ -8,14 +14,14 @@ img{
 }
 
 header{
-    background-color: bisque;
+    background-color: $color-bisque;
     padding: 10px;
 }
 h1{
     font-family: 'Fahkwang', sans-serif;
     font-weight: lighter;
     font-size: 2,5rem;
-    color: brown;
+    color:$color-brown;
 }
 nav ul{
     list-style-type: none;
@@ -24,9 +30,9 @@ nav ul{
     font-size: 1.2rem;
 }
 header nav ul li a{
-    text-decoration: none;
-  color: black;
+    @include anclas;
 }
+   
 header nav ul li a:hover {
     color: darkred;
   }
