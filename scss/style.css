@@ -58,6 +58,7 @@ main div h2 {
 ul li {
   list-style-type: none;
   text-align: center;
+  background-color: #eecbbe;
 }
 
 h2 {
@@ -100,6 +101,12 @@ p {
   line-height: 2rem;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.texto {
+  height: 220px;
+  width: 400px;
+  margin: 2rem auto;
 }
 
 .carousel {

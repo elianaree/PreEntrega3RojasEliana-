@@ -1,302 +1,266 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 /*Media querie*/
 /*Mobile*/
-@media only screen and (max-width:500px){
-  body{
+@media only screen and (max-width: 500px) {
+  body {
     background-color: beige;
   }
 }
 
 /*Desktop*/
-@media only screen and (min-width:961px){
-  body{
+@media only screen and (min-width: 961px) {
+  body {
     background-color: white;
   }
 }
 
-body{
+body {
   margin: 0;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    
+.logo {
+  display: flex;
+  align-items: center;
 }
-.logo img{
-    height: 70px;
-margin-right: 10px;
-
+.logo img {
+  height: 70px;
+  margin-right: 10px;
 }
 
-header{
-    background-color: bisque;
-    padding: 10px;
-    
-    
+header {
+  background-color: bisque;
+  padding: 10px;
 }
 
-
-header h1{
-    font-family: 'Fahkwang', sans-serif;
-    font-weight:lighter;
-    font-size: 2,5rem;
-    color:brown;
-    }
-    
-
-nav ul{
-
-    list-style-type: none;
-    display:flex;
-    justify-content: space-around;
-    font-size: 1.2rem;
-    
-    
-    
+header h1 {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: lighter;
+  font-size: 2, 5rem;
+  color: brown;
 }
-  header nav ul li a{
-     text-decoration:none;
-     color: black;
-     
-  }  
 
-  header nav ul li a:hover{
-    color: darkred;
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a:hover {
+  color: darkred;
+}
+
+main div h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1, 5rem;
+  font-style: italic;
+  margin-top: 25px;
+}
+main ul li {
+  list-style-type: none;
+  text-align: center;
+  background-color: #eecbbe;
+}
+main h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+
+main html iframe {
+  justify-content: center;
+}
+
+.container-boton {
+  position: fixed;
+  z-index: 999;
+  right: 25px;
+  bottom: 25px;
+  transition: 1s linear;
+  animation: animación 1.3s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.botom {
+  width: 70px;
+  transition: ease 1s;
+}
+@keyframes animación {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
   }
-
-  
-
-main div h2{
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1,5rem;
-    font-style: italic;
-    margin-top: 25px;
-    
-
-  }  
-  main ul li{
-    list-style-type: none;
-    text-align: center;
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
   }
-  main h2{
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: lighter;
-    margin-top: 25px;
-  }
+}
 
-  main html iframe{
-
-    justify-content: center;
-  }
-
-
-  .container-boton{
-
-    position: fixed;
-    z-index: 999;
-    right: 25px;
-    bottom: 25px;
-    transition: 1s linear;
-    animation: animación 1.3s infinite;
-  }
-   .container-boton:hover{
-
-    transform: scale(1.1);
-    transition: 0.2s;
-   }
-   .botom{
-       width: 70px;
-       transition: ease 1s;
-
-   }
-   @keyframes animación{
-      0%{
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
-      }
-      100%{
-        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
-      }
-
-      }
-   
-
-  
-
-   
-  .deco img{
-      width: 100%;
-      height: auto;
-      margin: auto;
-      border-radius: 10px;
-  }
-  .carousel{
-
-    max-width: 900px;
-    z-index: 1;
-    margin: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+.deco img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+.carousel {
+  max-width: 900px;
+  z-index: 1;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-bottom: 20px;
   margin-top: 20px;
- }   
+}
 
- .carousel {
-    position: relative;
-  }
+.carousel {
+  position: relative;
+}
 
-  .carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 20%;
-    margin-bottom: 1rem;
-    margin-left: 20%;
-  
-  }
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 20%;
+  margin-bottom: 1rem;
+  margin-left: 20%;
+}
 
-  carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
+carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
-  .carousel-item {
-    position: relative;
-    display: none;
-    float: left;
-    width: 100%;
-    margin-right: -100%;
-    transition: transform .4s ease-in-out;
-  }
-  .d-block w-100{
-    width:100%!important; 
-    object-fit: cover; 
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  transition: transform 0.4s ease-in-out;
+}
+.d-block w-100 {
+  width: 100% !important;
+  object-fit: cover;
+}
 
-
-  }
-   
-.carousel-control-next, .carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 15%;
   padding: 0;
+}
 
- }
-
-.button{
+.button {
   position: absolute;
 }
 
- .card-group{
-margin: 0;
-padding: 0;
-
- }
-.card{
-display: flex;
-width: 100px;
-margin: 20px;
-border-radius: 6px;
-overflow: hidden;
-background-color: white;
-
+.card-group {
+  margin: 0;
+  padding: 0;
 }
-.card-img-top{
-    width: 100%;
-    height: 500px;
-    object-fit: fill;
-    background-size: cover;
-    margin-left: 10px;
-
+.card {
+  display: flex;
+  width: 100px;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
 }
-.card-body{
-    padding: 20px 15px;
-    text-align: justify;
-    
+.card-img-top {
+  width: 100%;
+  height: 500px;
+  object-fit: fill;
+  background-size: cover;
+  margin-left: 10px;
 }
-.card-title{
+.card-body {
+  padding: 20px 15px;
+  text-align: justify;
+}
+.card-title {
   text-align: center;
-
 }
-.card-text{
+.card-text {
   padding: 15px;
   text-align: center;
 }
 
-.text-body-secondary{
-font-size: 1.5rem;
-margin-bottom: 25px;
-
+.text-body-secondary {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
 }
-@media screen and (max-width:500px){
-  .card-body{
+@media screen and (max-width: 500px) {
+  .card-body {
     flex-direction: column;
   }
 }
 
-p{
-    text-align:center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    font-style: italic;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    line-height: 2rem;
-    padding-left: 25px;
-    padding-right: 25px;
-    }
-    
-    footer{
-        background-color: bisque;
-        margin-bottom: 50px;
-        margin-top: 25px; 
-      }
-
-
-footer a{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    color:darkred;
-    font-weight: bold;
-    font-style: italic;
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  line-height: 2rem;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-footer div{
-    display: flex;
-    justify-content: center;
+.texto {
+  height: 220px;
+  width: 400px;
+  margin: 2rem auto;
 }
-footer h3{
-  font-family: 'Fahkwang', sans-serif;
-  font-weight:lighter;
-  color:brown;
-  font-size: 1.5rem;
+footer {
+  background-color: bisque;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
 
-}
-footer h4{
-   display: flex;
+footer a {
+  text-decoration: none;
+  display: flex;
   justify-content: center;
-   
+  color: darkred;
+  font-weight: bold;
+  font-style: italic;
 }
-
-
-
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer h3 {
+  font-family: "Fahkwang", sans-serif;
+  font-weight: lighter;
+  color: brown;
+  font-size: 1.5rem;
+}
+footer h4 {
+  display: flex;
+  justify-content: center;
+}
