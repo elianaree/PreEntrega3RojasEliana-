@@ -54,43 +54,52 @@
   }
 
   .card-group {
+    display: flex;
     margin: 0;
     padding: 0;
   }
   
   .card {
+    flex: 50%;
     display: flex;
+    flex-direction: column;
     width: 100px;
     margin: 20px;
     border-radius: 6px;
-    overflow: hidden;
-    background-color: white;
+    
   }
   
   .card-img-top {
     width: 100%;
     height: 500px;
-    object-fit: fill;
-    background-size: cover;
-    margin-left: 10px;
+    object-fit: cover;
+    
+  
   }
   
   .card-body {
-    padding: 20px 15px;
-    text-align: justify;
+    padding: 0 1rem;
+    text-align: center;
+    flex-grow: 1;
+  flex-shrink: 1;
   }
   
   .card-title {
     text-align: center;
+    color: brown;
+  font-size: clamp(0.7em, 2vw, 2em);
+  margin-bottom: .2em;
   }
   
-  .card-text {
-    padding: 15px;
+  .card-text{
     text-align: center;
+    font-size: calc(3vw, .1em);
   }
+  
   
   .text-body-secondary {  font-size: 1.5rem;
     margin-bottom: 25px;
+    text-align: center;
   }
   @media screen and (max-width: 500px) {
     .card-body {

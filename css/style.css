@@ -141,7 +141,7 @@ main html iframe {
   margin-left: 20%;
 }
 
-carousel-inner {
+.carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -192,15 +192,17 @@ carousel-inner {
 
 }
 .card-img-top {
-  width: 100%;
+ width:100%;
   height: 500px;
-  object-fit: fill;
-  background-size: cover;
+  object-fit: cover;
+ 
+  
+  
   
 }
 .card-body {
   padding: 0 1rem;
-  text-align: justify;
+  text-align: center;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -212,15 +214,16 @@ carousel-inner {
 
 }
 .card-text {
-
   text-align: center;
   font-size: calc(3vw,+ .1em);
-  
+
 }
 
-.text-body-secondary {
+.text-body-secondary{
   font-size: 1.5rem;
-  margin-bottom: .2em;
+  margin-bottom: 25px;
+  text-align: center;
+
 }
 @media screen and (max-width: 500px) {
   .card-body {

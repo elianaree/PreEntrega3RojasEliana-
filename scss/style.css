@@ -168,35 +168,39 @@ p {
 }
 
 .card-group {
+  display: flex;
   margin: 0;
   padding: 0;
 }
 
 .card {
+  flex: 50%;
   display: flex;
+  flex-direction: column;
   width: 100px;
   margin: 20px;
   border-radius: 6px;
-  overflow: hidden;
-  background-color: white;
 }
 
 .card-img-top {
   width: 100%;
   height: 500px;
-  -o-object-fit: fill;
-     object-fit: fill;
-  background-size: cover;
-  margin-left: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card-body {
-  padding: 20px 15px;
-  text-align: justify;
+  padding: 0 1rem;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .card-title {
   text-align: center;
+  color: brown;
+  font-size: clamp(0.7em, 2vw, 2em);
+  margin-bottom: 0.2em;
 }
 
 .card-text {
