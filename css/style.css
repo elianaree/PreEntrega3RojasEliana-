@@ -189,18 +189,24 @@ main html iframe {
 
 .card {
   width: 100%;
-margin: 20px;
 border-radius: 6px;
 background-color: white;
+padding: 80px;
+
+
+
 }
 .card img{
-  width: 80%;
+  width: 60%;
   object-fit: cover;
   
+  
+  
   }
+
   .card .content{
 
-    padding: 15px;
+    padding: 30px;
     text-align: center;
     }
     .card .content p{
