@@ -208,7 +208,7 @@ background-color: white;
 
 }
 .card img{
-  width: 80%;
+  width: 70%;
   object-fit: cover;
   
   
@@ -262,9 +262,10 @@ p {
   padding-right: 25px;
 }
 .texto {
-  height: 220px;
-  width: 400px;
+  width: 100%;
   margin: 2rem auto;
+  
+  
 }
 footer {
   background-color: bisque;
