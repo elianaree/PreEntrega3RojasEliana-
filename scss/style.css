@@ -180,6 +180,15 @@ p {
     box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
   }
 }
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+}
+
 .card {
   width: 100%;
   margin: 20px;

@@ -186,18 +186,29 @@ main html iframe {
   position: absolute;
 }
 
+.container{
+
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  }
+
 
 .card {
   width: 100%;
+  margin: 20px;
 border-radius: 6px;
 background-color: white;
-padding: 80px;
+
 
 
 
 }
 .card img{
-  width: 60%;
+  width: 80%;
   object-fit: cover;
   
   
@@ -206,7 +217,7 @@ padding: 80px;
 
   .card .content{
 
-    padding: 30px;
+    padding:15px;
     text-align: center;
     }
     .card .content p{
