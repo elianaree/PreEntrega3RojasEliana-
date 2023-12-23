@@ -7,6 +7,7 @@
 .logo{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 img{
     height: 70px;
@@ -22,6 +23,7 @@ h1{
     font-weight: lighter;
     font-size: 2,5rem;
     color:$color-brown;
+    flex-wrap: wrap;
 }
 nav ul{
     list-style-type: none;
